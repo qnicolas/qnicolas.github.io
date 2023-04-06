@@ -2,9 +2,21 @@ body {
     background: white;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-bottom: 8px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin: 5%;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 0 20%;
+    }
+}
+
 
 .container {
     padding: 0 20px;
