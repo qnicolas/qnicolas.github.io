@@ -110,12 +110,12 @@
         I joined the group to address these questions in tropical regions.<br>
 
         One approach to understanding these is a plume buoyancy framework. Tropical extreme seasons, both wet and dry, are relatively well 
-        characterized by a simple measure of convective plume buoyancy (see figure). This measure only depends on seasonal-mean temperature 
+        characterized by a simple measure of convective plume buoyancy. This measure only depends on seasonal-mean temperature 
         and moisture in the boundary layer and lower free troposphere. Understanding what leads to seasonal extremes in these 
         thermodynamic quantities (processes associated with surface fluxes, horizontal moisture advection, and others) may be easier than 
         understanding directly what lead to rainfall extremes.
         
-        <div class="text-center">
+        <!-- <div class="text-center">
             <img src="data/BLextremes.png" width="50%">
             <p><em>Distribution of the quantiles of 
                 <math>
@@ -133,15 +133,46 @@
                     </msub>
                   </math>, and dry extremes with low quantiles.
             </em></p>
-        </div>
+        </div> -->
+    </p><br>
+
+    <h4> Midlatitude heat waves </h4>   
+    <p> Extreme heat events have been increasing in intensity over the past decades, with some heatwaves shattering previous 
+        temperature records by more than 5°C. How much can we expect them to intensify in the near future? A recent study 
+        (<a href="https://www.pnas.org/doi/10.1073/pnas.2215278120">Zhang and Boos, 2023</a>) suggested that 
+        there is a physical upper limit to surface temperatures, set by moist convective instability. The bound they proposed has the 
+        unexpected property of allowing for temperature profiles that are unstable to dry convection. We are investingating the reasons behind this
+        behavior, and the characteristics of heatwaves that do feature such instability.
+    </p><br>
+
+    <h4> Superrotation in planetary atmospheres </h4>   
+    <p> Superrotation is a strange feature of some planetary atmospheres, whereby the equatorial atmosphere
+        rotates faster than the underlying planet. It is observed in the atmospheres of several planetary bodies in the Solar system 
+        (Venus, Jupiter, Saturn, Titan) and is expected to occur on many exoplanets. The mechanisms
+        responsible for superrotation are still debated and vary depending on a planet's characteristics.
+        Our paper (<a href="https://arxiv.org/abs/2510.21680">preprint</a>) investigates 
+        the mechanisms responsible for superrotation in shallow atmospheres in a simple two-layer model.
+    </p><br>
+
+    <h4> Stationary wave modeling of Earth's atmosphere </h4>   
+    <p> Understanding the dynamics of Earth's atmosphere requires a range of models of varying complexity, from pen-and-paper 
+        theories to complex general circulation models. Stationary wave models are an intermediate class of models designed to
+        investigates the response of the atmosphere to steady forcings, such as topography or diabatic heating. One example of 
+        question that a stationary wave models can help answer is whether mountains or diabatic heating are more important in 
+        shaping the mean position of the jet stream. I have implemented a stationary wave model using Dedalus, a python framework
+        for solving PDEs. The model is <a href="https://github.com/qnicolas/stationaryWave">freely available on Github</a>. 
     </p>
-
-
 
 <hr style="visibility:hidden;"> <!--Adds space-->
 
 <h2> Publications </h2>
     <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <b>Mechanisms of Superrotation in Slowly-Rotating and Tidally-Locked Planets</b>
+            <br>Quentin Nicolas and Geoffrey K. Vallis.
+            <br><em>The Planetary Science Journal</em>, in revision
+            <br><a href="https://arxiv.org/abs/2510.21680">preprint</a>
+        </li>
         <li class="list-group-item">
             <b>Sensitivity of tropical orographic precipitation to wind speed with implications for future projections</b>
             <br>Quentin Nicolas and William R. Boos.
